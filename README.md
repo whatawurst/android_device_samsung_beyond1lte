@@ -1,1 +1,1 @@
-# android_device_samsung_beyond1lte
+# TWRP device tree for the Samsung Galaxy S10
