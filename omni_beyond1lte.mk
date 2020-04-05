@@ -16,12 +16,13 @@ $(call inherit-product, vendor/omni/config/common.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := omni_beyond1lte
 PRODUCT_DEVICE := beyond1lte
-PRODUCT_BRAND := Samsung
+PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G973F
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=beyond1lte \
+    PRODUCT_NAME=beyond1ltexx \
+    PRODUCT_DEVICE=beyond1 \
     PRIVATE_BUILD_DESC="beyond1ltexx-user 10 QP1A.190711.020 G970FXXU4BTA8 release-keys"
 
 BUILD_FINGERPRINT := samsung/beyond1ltexx/beyond1:10/QP1A.190711.020/G970FXXU4BTA8:user/release-keys
