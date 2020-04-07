@@ -705,5 +705,5 @@
 
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 H -49.66666666666667 V 38.66666666666667 H 0 V 0 Z @dp @right</string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 H -58 V 42.57142857142857 H 0 V 0 Z @dp @right</string>
 </resources>
