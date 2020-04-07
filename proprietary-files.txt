@@ -1,0 +1,150 @@
+### BLUETOOTH
+# aptX - from crosshatch - QP1A.190711.020
+system/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+system/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
+
+### CAMERA
+system/lib/libcamerahardwareinterface.so
+system/media/fruc_kernels.exynos9820.bin
+
+### OFFLINE_CHARGER
+system/bin/lpm
+system/lib64/libmaet.so
+system/lib64/libsuspend.so
+system/lib64/libsxqk_skia.so
+system/media/battery_error.spi
+system/media/battery_low.spi
+system/media/battery_temperature_error.spi
+system/media/battery_temperature_limit.spi
+system/media/battery_water_usb.spi
+system/media/bootsamsung.qmg
+system/media/bootsamsungloop.qmg
+system/media/charging_New_Fast.spi
+system/media/charging_New_Normal.spi
+system/media/dock_error_usb.spi
+system/media/incomplete_connect.spi
+system/media/percentage.spi
+system/media/safety_timer_usb.spi
+system/media/shutdown.qmg
+system/media/slow_charging_usb.spi
+system/media/temperature_limit_usb.spi
+system/media/water_protection_usb.spi
+
+### GPS
+system/etc/init/init.gpscommon.rc
+
+### NFC
+system/etc/libnfc-nci.conf
+system/lib64/vendor.samsung.hardware.nfc@2.0.so
+
+### OMX
+system/etc/somxreg.conf
+# FIXME: Check if these can be built from source
+system/lib/libsomx263dsw.so
+system/lib/libsomx264dsw.so
+system/lib/libsomxaacd.so
+system/lib/libsomxadpcmd.so
+system/lib/libsomxamrd.so
+system/lib/libsomxaped.so
+system/lib/libsomxcmn.so
+system/lib/libsomxcore.so
+system/lib/libsomxflacd.so
+system/lib/libsomxhevcdsw.so
+system/lib/libsomxmp3d.so
+system/lib/libsomxmp4vdsw.so
+system/lib/libsomxmp43d.so
+system/lib/libsomxnaace.so
+system/lib/libsomxvc1dsw.so
+system/lib/libsomxvp8d.so
+system/lib/libsomxwmad.so
+system/lib/libsomxwmv7d.so
+system/lib/libsomxwmv8d.so
+system/lib64/libsomx263dsw.so
+system/lib64/libsomx264dsw.so
+system/lib64/libsomxaacd.so
+system/lib64/libsomxadpcmd.so
+system/lib64/libsomxamrd.so
+system/lib64/libsomxaped.so
+system/lib64/libsomxcmn.so
+system/lib64/libsomxcore.so
+system/lib64/libsomxflacd.so
+system/lib64/libsomxhevcdsw.so
+system/lib64/libsomxmp3d.so
+system/lib64/libsomxmp4vdsw.so
+system/lib64/libsomxmp43d.so
+system/lib64/libsomxnaace.so
+system/lib64/libsomxvc1dsw.so
+system/lib64/libsomxvp8d.so
+system/lib64/libsomxwmad.so
+system/lib64/libsomxwmv7d.so
+system/lib64/libsomxwmv8d.so
+# FIXME END
+
+### RIL
+init.rilmptcp.rc:system/etc/init/init.rilmptcp.rc
+system/bin/connfwexe
+system/bin/ddexe
+system/bin/eris
+system/bin/ikev2-client
+system/bin/redsocks
+system/bin/smdexe
+system/etc/init/init.rilcarrier.rc
+system/etc/init/init.rilchip.rc
+system/etc/init/init.rilcommon.rc
+system/etc/init/init.rilepdg.rc
+system/etc/eris.conf
+system/etc/restart_radio_process.sh
+system/lib/libatparser.so
+system/lib/libfactoryutil.so
+system/lib/libfloatingfeature.so
+system/lib/libmdf.so
+system/lib/libomission_avoidance.so
+system/lib/libpa.so
+system/lib/libpacm_client.so
+system/lib/libsecnativefeature.so
+system/lib/libsecril-client.so
+system/lib/libsecure_storage.so
+system/lib/libsec_semRil.so
+system/lib/vendor.samsung.hardware.security.proca@2.0.so
+system/lib/vendor.samsung.hardware.security.securestorage@3.0.so
+system/lib64/libatparser.so
+system/lib64/libfactoryutil.so
+system/lib64/liberis_charon.so
+system/lib64/liberis_simaka.so
+system/lib64/liberis_strongswan.so
+system/lib64/libfloatingfeature.so
+system/lib64/libmdf.so
+system/lib64/libomission_avoidance.so
+system/lib64/libpa.so
+system/lib64/libpacm_client.so
+system/lib64/libsecnativefeature.so
+system/lib64/libsecril-client.so
+system/lib64/libsecure_storage.so
+system/lib64/libsec_semRil.so
+system/lib64/vendor.samsung.hardware.security.proca@2.0.so
+system/lib64/vendor.samsung.hardware.security.securestorage@3.0.so
+
+### SAMSUNG_SLSI_CONFIGSTORE
+system/lib/vendor.samsung_slsi.hardware.configstore-utils.so
+system/lib/vendor.samsung_slsi.hardware.configstore@1.0.so
+system/lib64/vendor.samsung_slsi.hardware.configstore-utils.so
+system/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so
+
+### SAMSUNG_SLSI_EDEN_RUNTIME
+system/lib/vendor.samsung_slsi.hardware.eden_runtime@1.0.so
+system/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0.so
+
+### SAMSUNG_SLSI_HWC
+system/lib/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
+system/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
+
+### SAMSUNG_SLSI_IVA
+system/lib/vendor.samsung_slsi.hardware.iva@1.0.so
+system/lib64/vendor.samsung_slsi.hardware.iva@1.0.so
+
+### SAMSUNG_SLSI_MULTI_FRAME_PROCESSING
+system/lib/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0.so
+system/lib64/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0.so
+
+### WIDEVINE
+system/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so
