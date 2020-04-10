@@ -23,6 +23,8 @@ PRODUCT_PLATFORM := exynos9820
 
 TARGET_OTA_ASSERT_DEVICE := beyond1,beyond1lte,beyond1ltexx
 
+TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/hardware/include
+
 ### KERNEL
 ifeq ($(WITH_MAGISK),true)
   TARGET_KERNEL_CONFIG := exynos9820-beyond1lte_magisk_defconfig
