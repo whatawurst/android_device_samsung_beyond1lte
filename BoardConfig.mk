@@ -24,7 +24,11 @@ PRODUCT_PLATFORM := exynos9820
 TARGET_OTA_ASSERT_DEVICE := beyond1,beyond1lte,beyond1ltexx
 
 ### KERNEL
-TARGET_KERNEL_CONFIG := exynos9820-beyond1lte_defconfig
+ifeq ($(WITH_MAGISK),true)
+  TARGET_KERNEL_CONFIG := exynos9820-beyond1lte_magisk_defconfig
+else
+  TARGET_KERNEL_CONFIG := exynos9820-beyond1lte_defconfig
+endif
 
 ### PARTITIONS
 # /proc/partitions shows the size in 1024-byte blocks
