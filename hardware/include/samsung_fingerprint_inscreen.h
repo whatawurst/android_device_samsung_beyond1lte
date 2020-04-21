@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef SAMSUNG_FOD_H
-#define SAMSUNG_FOD_H
+#ifndef SAMSUNG_FINGERPRINT_INSCREEN_H
+#define SAMSUNG_FINGERPRINT_INSCREEN_H
 
 /**
  * Information on the position of the scanner
@@ -38,17 +38,9 @@
 /* Sensor rectangle size  */
 #define FOD_SENSOR_SIZE     210
 
-#define FOD_ENABLE "fod_enable,1,1,0"
+#define FOD_ENABLE "fod_enable,1,1"
 #define FOD_DISABLE "fod_enable,0"
 
-#define FINGERPRINT_ACQUIRED_VENDOR 6
-
-#define BRIGHTNESS_PATH "/sys/class/backlight/panel/brightness"
 #define TSP_CMD_PATH "/sys/class/sec/tsp/cmd"
 
-#define SEM_FINGER_STATE 22
-#define SEM_PARAM_PRESSED 2
-#define SEM_PARAM_RELEASED 1
-#define SEM_AOSP_FQNAME "android.hardware.biometrics.fingerprint@2.1::IBiometricsFingerprint"
-
-#endif  // SAMSUNG_FOD_H
+#endif  // SAMSUNG_FINGERPRINT_INSCREEN_H
