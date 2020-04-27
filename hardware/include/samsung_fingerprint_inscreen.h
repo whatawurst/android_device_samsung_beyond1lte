@@ -41,6 +41,8 @@
 #define FOD_ENABLE "fod_enable,1,1"
 #define FOD_DISABLE "fod_enable,0"
 
+#define FINGERPRINT_ACQUIRED_VENDOR 6
+
 #define TSP_CMD_PATH "/sys/class/sec/tsp/cmd"
 
 #endif  // SAMSUNG_FINGERPRINT_INSCREEN_H
