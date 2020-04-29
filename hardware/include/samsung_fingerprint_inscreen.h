@@ -27,16 +27,16 @@
  * WIDTH = 1440
  * X = (WIDTH / 2) - (FOD_SENSOR_SIZE / 2)
  */
-#define FOD_SENSOR_X        615
+#define FOD_SENSOR_X        545
 
 /*
  * HEIGHT = 3040
  * Y = ???
  */
-#define FOD_SENSOR_Y        2600
+#define FOD_SENSOR_Y        2500
 
 /* Sensor rectangle size  */
-#define FOD_SENSOR_SIZE     210
+#define FOD_SENSOR_SIZE     350
 
 #define FOD_ENABLE "fod_enable,1,1"
 #define FOD_DISABLE "fod_enable,0"
