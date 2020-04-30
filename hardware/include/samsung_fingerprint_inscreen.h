@@ -42,6 +42,8 @@
 #define FOD_DISABLE "fod_enable,0"
 
 #define FINGERPRINT_ACQUIRED_VENDOR 6
+#define VENDORCODE_FINGER_DOWN 9002
+#define VENDORCODE_FINGER_UP 9001
 
 #define TSP_CMD_PATH "/sys/class/sec/tsp/cmd"
 
