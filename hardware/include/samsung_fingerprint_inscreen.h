@@ -38,7 +38,7 @@
 /* Sensor rectangle size  */
 #define FOD_SENSOR_SIZE     350
 
-#define FOD_ENABLE "fod_enable,1,1"
+#define FOD_ENABLE "fod_enable,1"
 #define FOD_DISABLE "fod_enable,0"
 
 #define FINGERPRINT_ACQUIRED_VENDOR 6
